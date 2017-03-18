@@ -1,0 +1,7 @@
+{
+  "snippets": {
+    "scriptTag": "<!-- Script Files -->\n",
+    "cssTag": "<!-- CSS Files-->\n\t"
+  },
+  "build": "../build/"
+}
