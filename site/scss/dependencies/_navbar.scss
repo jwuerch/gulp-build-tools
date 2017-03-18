@@ -10,11 +10,15 @@
   border-right:0;
   img {
     padding:5px 0;
-    @media (max-width:480px) {
-      max-width:275px;
+
+  }
+  @media (max-width:480px) {
+    float:left;
+    img {
+      max-width:250px;
+
     }
   }
-
 }
 .navbar {
   a {
@@ -22,6 +26,9 @@
     font-family:$source-sans-pro;
     font-weight:400;
     font-size:18px;
+    &:hover {
+      text-decoration:underline !important;
+    }
   }
 
   .nav-1 {
